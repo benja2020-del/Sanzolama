@@ -24,7 +24,7 @@
     font-size: 16px;
     margin: 6px;
 }
-/* cible la balise a lorsqu'elle sera survoler */
+/* cibler la balise a lorsqu'elle sera survoler */
 
 .menu a:hover{
     color: red;
@@ -183,6 +183,7 @@
 .form p input{
     justify-content: space-between;
     margin-bottom: 20px;
+    width: 300px;
     height: 30px;
     background-color: white;
     border:2px solid rgb(73, 73, 73);
@@ -214,7 +215,7 @@ footer{
 
 
 
-/* determine les valeurs des propriétés selon la taille de l'écran */
+/* determiner les valeurs des propriétés selon la taille de l'écran */
 
 @media (max-width:576px){
     .menu{
@@ -223,7 +224,7 @@ footer{
     .contenue h1{
         font-size: 20px;
     }
-    /* Afficher les éléments de .web en colonne sur petits écrans */
+    /* afficher les éléments de .web en colonne sur petits écrans */
     .web{
         flex-direction: column;
         padding: 10px;
@@ -233,7 +234,7 @@ footer{
         width: 100%;
         margin: 5px 0;
     }
-    /* Empiler la card et ses colonnes */
+    /* empiler la card et ses colonnes */
     .card{
         flex-direction: column;
         padding: 10px;
